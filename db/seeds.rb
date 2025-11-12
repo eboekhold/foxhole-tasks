@@ -8,6 +8,7 @@
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
 
-FactoryBot.create(:resource, name: "Salvage")
-FactoryBot.create(:resource, name: "Basic Material")
-FactoryBot.create(:structure, name: "Refinery")
+salvage = FactoryBot.create(:resource, name: "Salvage")
+bmat = FactoryBot.create(:resource, name: "Basic Material")
+refinery = FactoryBot.create(:structure, name: "Refinery")
+FactoryBot.create(:recipe, structure: refinery, inputs: [salvage], outputs: [bmat])
