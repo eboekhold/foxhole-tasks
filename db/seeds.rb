@@ -7,3 +7,7 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+FactoryBot.create(:resource, name: "Salvage")
+FactoryBot.create(:resource, name: "Basic Material")
+FactoryBot.create(:structure, name: "Refinery")
