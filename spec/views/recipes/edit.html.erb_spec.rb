@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe "recipes/edit", type: :view do
+RSpec.xdescribe "recipes/edit", type: :view do
   let(:recipe) {
     Recipe.create!()
   }

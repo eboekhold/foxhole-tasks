@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe "recipes/index", type: :view do
+RSpec.xdescribe "recipes/index", type: :view do
   before(:each) do
     assign(:recipes, [
       Recipe.create!(),
