@@ -1,0 +1,29 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @recipe %>
+
+<h4>Inputs:</h4>
+<ul>
+<% @recipe.inputs.each do |input| %>
+    <%= render input %>
+    <p>
+      <%= link_to "Show this input", input %>
+    </p>
+  <% end %>
+</ul>
+<h4>Outputs:</h4>
+<ul>
+<% @recipe.outputs.each do |output| %>
+    <%= render output %>
+    <p>
+      <%= link_to "Show this output", output %>
+    </p>
+  <% end %>
+</ul>
+
+<div>
+  <%= link_to "Edit this recipe", edit_recipe_path(@recipe) %> |
+  <%= link_to "Back to recipes", recipes_path %>
+
+  <%= button_to "Destroy this recipe", @recipe, method: :delete %>
+</div>
