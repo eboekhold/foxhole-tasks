@@ -4,20 +4,14 @@
 
 <h4>Inputs:</h4>
 <ul>
-<% @recipe.inputs.each do |input| %>
-    <%= render input %>
-    <p>
-      <%= link_to "Show this input", input %>
-    </p>
+<% @recipe.input_resources.each do |input_resource| %>
+    <%= render input_resource %>
   <% end %>
 </ul>
 <h4>Outputs:</h4>
 <ul>
-<% @recipe.outputs.each do |output| %>
-    <%= render output %>
-    <p>
-      <%= link_to "Show this output", output %>
-    </p>
+<% @recipe.output_resources.each do |output_resource| %>
+    <%= render output_resource %>
   <% end %>
 </ul>
 

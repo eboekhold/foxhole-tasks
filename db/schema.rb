@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2025_11_11_221055) do
+ActiveRecord::Schema[8.0].define(version: 2025_11_13_155301) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_catalog.plpgsql"
 
@@ -19,6 +19,7 @@ ActiveRecord::Schema[8.0].define(version: 2025_11_11_221055) do
     t.bigint "recipe_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "amount"
     t.index ["recipe_id"], name: "index_input_resources_on_recipe_id"
     t.index ["resource_id"], name: "index_input_resources_on_resource_id"
   end
@@ -28,6 +29,7 @@ ActiveRecord::Schema[8.0].define(version: 2025_11_11_221055) do
     t.bigint "recipe_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "amount"
     t.index ["recipe_id"], name: "index_output_resources_on_recipe_id"
     t.index ["resource_id"], name: "index_output_resources_on_resource_id"
   end

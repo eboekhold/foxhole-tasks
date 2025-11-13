@@ -8,4 +8,7 @@ class Recipe < ApplicationRecord
   has_many :outputs, through: :output_resources, source: :resource
 
   validates :structure, presence: true
+
+  accepts_nested_attributes_for :input_resources
+  accepts_nested_attributes_for :output_resources
 end

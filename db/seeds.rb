@@ -11,4 +11,4 @@
 salvage = FactoryBot.create(:resource, name: "Salvage")
 bmat = FactoryBot.create(:resource, name: "Basic Material")
 refinery = FactoryBot.create(:structure, name: "Refinery")
-FactoryBot.create(:recipe, structure: refinery, inputs: [salvage], outputs: [bmat])
+FactoryBot.create(:recipe, structure: refinery, input_resources_attributes: [{resource: salvage, amount: 2}], output_resources_attributes: [{resource: bmat, amount: 1}])
