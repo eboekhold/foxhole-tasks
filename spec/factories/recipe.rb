@@ -1,6 +1,7 @@
 FactoryBot.define do
   factory :recipe do
     structure
+    time { Faker::Number.number(digits: 5) }
 
     # Build input and output resources if they are not passed to the factory through the nested attributes params.
     after(:build) do |recipe, evaluator|

@@ -5,15 +5,25 @@
 <h4>Inputs:</h4>
 <ul>
 <% @recipe.input_resources.each do |input_resource| %>
-    <%= render input_resource %>
+    <li>
+      <%= render input_resource %>
+    </li>
   <% end %>
 </ul>
+
 <h4>Outputs:</h4>
 <ul>
 <% @recipe.output_resources.each do |output_resource| %>
-    <%= render output_resource %>
+    <li>
+      <%= render output_resource %>
+    </li>
   <% end %>
 </ul>
+
+<p>
+  <strong>Time:</strong>
+  <%= @recipe.time_formatted %>
+</p>
 
 <div>
   <%= link_to "Edit this recipe", edit_recipe_path(@recipe) %> |

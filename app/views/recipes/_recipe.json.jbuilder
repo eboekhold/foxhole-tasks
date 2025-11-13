@@ -1,3 +1,4 @@
+json.extract! recipe, :time
 json.structure recipe.structure.name
 json.inputs do
   json.array! recipe.input_resources, partial: "input_resources/input_resource", as: :input_resource
