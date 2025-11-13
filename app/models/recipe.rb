@@ -9,6 +9,7 @@ class Recipe < ApplicationRecord
 
   validates :structure, presence: true
   validates :time, numericality: { greater_than: 0 }
+  validates :faction, presence: true, inclusion: { in: %w[warden colonial both], message: "%{value} must be 'warden', 'colonial', or 'both'." }
 
   accepts_nested_attributes_for :input_resources
   accepts_nested_attributes_for :output_resources

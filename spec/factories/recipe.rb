@@ -2,6 +2,7 @@ FactoryBot.define do
   factory :recipe do
     structure
     time { Faker::Number.number(digits: 5) }
+    faction { :both }
 
     # Build input and output resources if they are not passed to the factory through input/output_resources_attributes.
     after(:build) do |recipe, evaluator|
