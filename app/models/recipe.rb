@@ -16,12 +16,19 @@ class Recipe < ApplicationRecord
 
   def time_formatted
     hours = (time / (1000 * 60 * 60)).to_s.rjust(2, '0')
-    minutes = (time / (1000 * 60)).to_s.rjust(2, '0')
-    seconds = (time / 1000).to_s.rjust(2, '0')
-    milliseconds = time % 1000
+
+    leftover_time = time % (1000 * 60 * 60)
+
+    minutes = (leftover_time / (1000 * 60)).to_s.rjust(2, '0')
+
+    leftover_time = leftover_time % (1000 * 60)
+
+    seconds = (leftover_time / 1000).to_s.rjust(2, '0')
+
+    milliseconds = (leftover_time % 1000).to_s.rjust(3, '0')
 
     output = "#{hours}:#{minutes}:#{seconds}"
-    output += ".#{milliseconds}" unless milliseconds == 0
+    output += ".#{milliseconds}" unless time % 1000 == 0
 
     output
   end
