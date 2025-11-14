@@ -1,3 +1,3 @@
 <div id="<%= dom_id recipe %>">
-  <%= recipe.input_resources.map(&:resource).map(&:name).join("& ") %> => <%= recipe.output_resources.map(&:resource).map(&:name).join("& ") %>
+  <%= recipe.output_resources.map(&:resource).map(&:name).join(" & ") %>
 </div>
