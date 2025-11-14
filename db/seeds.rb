@@ -76,3 +76,9 @@ factory_json.each do |recipe|
     output_resources_attributes: [{ resource: output_resource, amount: output_amount }]
   )
 end
+
+# Update 1.62 changes: https://foxhole.wiki.gg/wiki/Update_1.62#Balance_Changes
+smoke = Resource.find_by!(name: "PT-815 Smoke Grenade")
+smoke_recipe = smoke.recipes.first
+smoke_recipe.input_resources.first.update_attribute!(:amount, 80)
+smoke_recipe.output_resources.first.update_attribute!(:amount, 15)
