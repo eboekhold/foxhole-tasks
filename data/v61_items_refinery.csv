@@ -1,0 +1,10 @@
+,Refined Item Name,Source Item ID,Source Item Name,SpeedModifier,YieldModifier,MaxRefinedItemCount,TransferStackSize
+AluminumA,Aluminum Alloy,Aluminum,Aluminum,250,1,1000,20
+Cloth,Basic Materials,Metal,Salvage,250,0.5,12500,20
+CopperA,Copper Alloy,Copper,Copper,250,1,1000,20
+Diesel,Diesel,Metal,Salvage,50,0.1,6000,10
+Explosive,Explosive Powder,Metal,Salvage,32,0.2,12000,100
+GroundMaterials,Gravel,Coal,Coal,250,0.2,6000,20
+HeavyExplosive,Heavy Explosive Powder,Sulfur,Sulfur,20,0.2,6000,20
+IronA,Iron Alloy,Iron,Iron,250,1,1000,20
+Wood,Refined Materials,Components,Components,30,0.05,6000,20
