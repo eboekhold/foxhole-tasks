@@ -1,0 +1,125 @@
+,Name,Faction Variant,Type,BMat,EMat,RMat,HEMat,QuantityPerCrate,CrateProductionTime
+AssaultRifleHeavyC,“Dusk” ce.III,EFactionId::Colonials,EFactoryQueueType::SmallArms,,,15,,20,80
+AssaultRifleHeavyW,Booker Storm Rifle Model 838,EFactionId::Wardens,EFactoryQueueType::SmallArms,,,15,,20,80
+AssaultRifleW,Aalto Storm Rifle 24,EFactionId::Wardens,EFactoryQueueType::SmallArms,,,15,,20,80
+AssaultRifleAmmo,7.92mm,,EFactoryQueueType::SmallArms,120,,,,30,60
+AssaultRifleC,Catara mo.II,EFactionId::Colonials,EFactoryQueueType::SmallArms,,,15,,20,80
+MGC,KRN886-127 Gast Machine Gun,EFactionId::Colonials,EFactoryQueueType::SmallArms,,,25,,5,100
+MGW,Malone MK.2,EFactionId::Wardens,EFactoryQueueType::SmallArms,,,25,,5,100
+GrenadeC,Bomastone Grenade,EFactionId::Colonials,EFactoryQueueType::SmallArms,100,40,,,25,100
+GrenadeW,BF5 White Ash Flask Grenade,EFactionId::Wardens,EFactoryQueueType::SmallArms,100,40,,,20,100
+PistolLightW,Cascadier 873,EFactionId::Wardens,EFactoryQueueType::SmallArms,60,,,,40,30
+PistolAmmo,8mm,,EFactoryQueueType::SmallArms,40,,,,40,20
+Revolver,Cometa T2-9,,EFactoryQueueType::SmallArms,60,,,,30,50
+RifleHeavyW,The Hangman 757,EFactionId::Wardens,EFactoryQueueType::SmallArms,125,,,,20,80
+RevolverAmmo,.44,,EFactoryQueueType::SmallArms,40,,,,40,40
+RifleAutomaticC,Catena rt.IV Auto-Rifle,EFactionId::Colonials,EFactoryQueueType::SmallArms,120,,,,15,90
+RifleAutomaticW,Sampo Auto-Rifle 77,EFactionId::Wardens,EFactoryQueueType::SmallArms,125,,,,20,70
+RifleC,Argenti r.II Rifle,EFactionId::Colonials,EFactoryQueueType::SmallArms,100,,,,20,70
+RifleHeavyC,Volta r.I Repeater,EFactionId::Colonials,EFactoryQueueType::SmallArms,100,,,,15,90
+RifleLightC,Fuscina pi.I,EFactionId::Colonials,EFactoryQueueType::SmallArms,140,,,,20,80
+RifleLightW,Blakerow 871,EFactionId::Wardens,EFactoryQueueType::SmallArms,140,,,,20,80
+RifleLongC,KRR2-790 Omen,EFactionId::Colonials,EFactoryQueueType::SmallArms,155,,,,15,90
+RifleLongW,Clancy Cinder M3,EFactionId::Wardens,EFactoryQueueType::SmallArms,130,,,,15,90
+RifleShortW,No.2B Hawthorne,EFactionId::Wardens,EFactoryQueueType::SmallArms,70,,,,15,60
+RifleW,No.2 Loughcaster,EFactionId::Wardens,EFactoryQueueType::SmallArms,100,,,,20,70
+SniperRifleC,KRR3-792 Auger,EFactionId::Colonials,EFactoryQueueType::SmallArms,250,,30,,5,250
+SniperRifleW,Clancy-Raca M4,EFactionId::Wardens,EFactoryQueueType::SmallArms,250,,25,,3,250
+RifleAmmo,7.62mm,,EFactoryQueueType::SmallArms,80,,,,40,50
+ShotgunC,KRF1-750 Dragonfly,EFactionId::Colonials,EFactoryQueueType::SmallArms,130,,,,15,150
+ShotgunW,No.4 The Pillory Scattergun,EFactionId::Wardens,EFactoryQueueType::SmallArms,80,,,,15,100
+ShotgunAmmo,Buckshot,,EFactoryQueueType::SmallArms,80,,,,40,50
+SMGC,“The Pitch Gun” mc.V,EFactionId::Colonials,EFactoryQueueType::SmallArms,80,,,,20,80
+SMGHeavyC,“Lionclaw” mc.VIII,EFactionId::Colonials,EFactoryQueueType::SmallArms,120,,,,20,80
+SMGHeavyW,No.1 “The Liar” Submachinegun,EFactionId::Wardens,EFactoryQueueType::SmallArms,120,,,,20,80
+SMGW,Fiddler Submachine Gun Model 868,EFactionId::Wardens,EFactoryQueueType::SmallArms,120,,,,20,80
+SMGAmmo,9mm,,EFactoryQueueType::SmallArms,80,,,,40,50
+SmokeGrenade,PT-815 Smoke Grenade,,EFactoryQueueType::SmallArms,120,,,,10,75
+GreenAsh,Green Ash Grenade,,EFactoryQueueType::SmallArms,140,,,,10,100
+MGAmmo,12.7mm,,EFactoryQueueType::SmallArms,100,,,,20,70
+ATRifleTC,“Typhon” ra.XII,EFactionId::Colonials,EFactoryQueueType::HeavyArms,100,,5,,5,125
+ATRifleW,20 Neville Anti-Tank Rifle,EFactionId::Wardens,EFactoryQueueType::HeavyArms,150,,,,3,37.5
+ATRifleAmmo,20mm,,EFactoryQueueType::HeavyArms,100,,,,10,100
+ATRPGC,Venom c.II 35,EFactionId::Colonials,EFactoryQueueType::HeavyArms,100,,15,,5,50
+ATRPGHeavyC,Bane 45,EFactionId::Colonials,EFactoryQueueType::HeavyArms,150,,40,,5,125
+ATRPGHeavyW,Carnyx Anti-Tank Rocket Launcher,EFactionId::Wardens,EFactoryQueueType::HeavyArms,125,,15,,5,75
+ATRPGAmmo,AP/RPG,,EFactoryQueueType::HeavyArms,60,150,,,15,100
+ATRPGTW,Mounted Bonesaw MK.3,EFactionId::Wardens,EFactoryQueueType::HeavyArms,100,,5,,5,250
+ATRPGW,Bonesaw MK.3,EFactionId::Wardens,EFactoryQueueType::HeavyArms,100,,25,,5,50
+ATRPGIndirectAmmo,ARC/RPG,,EFactoryQueueType::HeavyArms,60,150,,,15,100
+FlameTorchC,“Molten Wind” v.II Flame Torch,EFactionId::Colonials,EFactoryQueueType::HeavyArms,185,,25,,10,50
+FlameTorchW,Willow’s Bane Model 845,EFactionId::Wardens,EFactoryQueueType::HeavyArms,165,,30,,10,50
+GrenadeLauncherC,KLG901-2 Lunaire F,EFactionId::Colonials,EFactoryQueueType::HeavyArms,50,,15,,5,100
+GrenadeLauncherTC,Mounted Fissura gd.I,EFactionId::Colonials,EFactoryQueueType::HeavyArms,100,,5,,5,125
+HELaunchedGrenade,Tremola Grenade GPb-1,,EFactoryQueueType::HeavyArms,75,100,,,20,80
+MGTC,Lamentum mm.IV,EFactionId::Colonials,EFactoryQueueType::HeavyArms,100,,5,,5,125
+MGTW,Malone Ratcatcher MK.1,EFactionId::Wardens,EFactoryQueueType::HeavyArms,100,,5,,5,125
+ISGTC,Daucus isg.III,EFactionId::Colonials,EFactoryQueueType::HeavyArms,100,,5,,5,125
+MiniTankAmmo,30mm,,EFactoryQueueType::HeavyArms,80,40,,,20,100
+Mortar,Cremari Mortar,,EFactoryQueueType::HeavyArms,100,,25,,5,50
+MortarAmmoFL,Flare Mortar Shell,,EFactoryQueueType::HeavyArms,60,15,,,15,100
+MortarAmmoSH,Shrapnel Mortar Shell,,EFactoryQueueType::HeavyArms,60,20,,,15,100
+MortarAmmo,Mortar Shell,,EFactoryQueueType::HeavyArms,60,70,,,15,100
+ATGrenadeW,BF5 White Ash Flask Grenade,EFactionId::Wardens,EFactoryQueueType::HeavyArms,100,80,,,10,75
+ATLaunchedGrenadeW,B2 Varsi Anti-Tank Grenade,EFactionId::Wardens,EFactoryQueueType::HeavyArms,95,125,,,20,80
+ATRPGLightC,Ignifist 30,EFactionId::Colonials,EFactoryQueueType::HeavyArms,85,70,,,10,75
+HEGrenade,Mammon 91-b,,EFactoryQueueType::HeavyArms,100,20,,,20,80
+StickyBomb,Anti-Tank Sticky Bomb,,EFactoryQueueType::HeavyArms,50,100,,,10,75
+RPGTW,Cutler Foebreaker,EFactionId::Wardens,EFactoryQueueType::HeavyArms,100,,5,,5,250
+RpgW,Cutler Launcher 4,EFactionId::Wardens,EFactoryQueueType::HeavyArms,100,,35,,5,50
+RPGAmmo,RPG,,EFactoryQueueType::HeavyArms,60,90,,,15,100
+HeavyArtilleryAmmo,150mm,,EFactoryQueueType::HeavyAmmo,120,,,60,5,65
+LightArtilleryAmmo,120mm,,EFactoryQueueType::HeavyAmmo,120,,,10,5,55
+MortarTankAmmo,"250mm ""Purity"" Shell",,EFactoryQueueType::HeavyAmmo,120,,,100,5,150
+ATAmmo,68mm,,EFactoryQueueType::HeavyAmmo,120,240,,,20,200
+LightTankAmmo,40mm,,EFactoryQueueType::HeavyAmmo,160,240,,,20,200
+BarbedwireMaterials,Barbed Wire,,EFactoryQueueType::Utility,15,,,,5,15
+Bayonet,Buckhorn CCQ-18,,EFactoryQueueType::Utility,40,,,,20,30
+Binoculars,Binoculars,,EFactoryQueueType::Utility,75,,,,5,50
+ExplosiveLightC,Hydra’s Whisper,EFactionId::Colonials,EFactoryQueueType::Utility,100,80,,,5,100
+ExplosiveTripod,Havoc Charge,,EFactoryQueueType::Utility,75,,,40,5,60
+FlameBackpackC,“Molten Wind” v.II Ammo,EFactionId::Colonials,EFactoryQueueType::Utility,160,,,20,10,100
+FlameBackpackW,Willow's Bane Ammo,EFactionId::Wardens,EFactoryQueueType::Utility,135,,,20,10,100
+ListeningKit,Listening Kit,,EFactoryQueueType::Utility,150,,,,5,60
+MaceW,Falias Raiding Club,EFactionId::Wardens,EFactoryQueueType::Utility,200,,,,10,100
+MetalBeamMaterials,Metal Beam,,EFactoryQueueType::Utility,25,,,,5,20
+RadioBackpack,Radio Backpack,,EFactoryQueueType::Utility,150,,,,5,75
+SandbagMaterials,Sandbag,,EFactoryQueueType::Utility,15,,,,5,15
+SatchelChargeT,Havoc Charge Detonator,,EFactoryQueueType::Utility,75,,,20,5,60
+SatchelChargeW,Alligator Charge,EFactionId::Wardens,EFactoryQueueType::Utility,150,160,,,10,100
+Shovel,Shovel,,EFactoryQueueType::Utility,200,,,,10,100
+SledgeHammer,Sledge Hammer,,EFactoryQueueType::Utility,200,,,,10,100
+SwordC,Eleos Infantry Dagger,EFactionId::Colonials,EFactoryQueueType::Utility,200,,,,10,100
+Tripod,Tripod,,EFactoryQueueType::Utility,100,,,,5,60
+WindsockT,Wind Sock,,EFactoryQueueType::Utility,150,,,,5,60
+WorkWrench,Wrench,,EFactoryQueueType::Utility,75,,,,5,50
+WaterBucket,Water Bucket,,EFactoryQueueType::Utility,80,,,,50,40
+GasMask,Gas Mask,,EFactoryQueueType::Utility,160,,,,20,100
+GasMaskFilter,Gas Mask Filter,,EFactoryQueueType::Utility,100,,,,20,50
+GrenadeAdapter,The Ospreay,EFactionId::Wardens,EFactoryQueueType::Utility,85,,10,,20,100
+Radio,Radio,,EFactoryQueueType::Utility,75,,,,5,50
+MaintenanceSupplies,Maintenance Supplies,,EFactoryQueueType::Supplies,250,,,,100,125
+Bandages,Bandages,,EFactoryQueueType::Medical,80,,,,50,40
+FirstAidKit,First Aid Kit,,EFactoryQueueType::Medical,60,,,,10,35
+TraumaKit,Trauma Kit,,EFactoryQueueType::Medical,80,,,,10,50
+BloodPlasma,Blood Plasma,,EFactoryQueueType::Medical,80,,,,50,40
+SoldierSupplies,Soldier Supplies,,EFactoryQueueType::Medical,80,,,,10,80
+AmmoUniformW,Specialist’s Overcoat,EFactionId::Wardens,EFactoryQueueType::Uniforms,100,,,,15,90
+ArmourUniformC,Velian Flak Vest,EFactionId::Colonials,EFactoryQueueType::Uniforms,200,,,,10,90
+ArmourUniformW,Gunner’s Breastplate,EFactionId::Wardens,EFactoryQueueType::Uniforms,150,,,,5,90
+EngineerUniformC,Fabri Rucksack,EFactionId::Colonials,EFactoryQueueType::Uniforms,100,,,,15,90
+EngineerUniformW,Sapper Gear,EFactionId::Wardens,EFactoryQueueType::Uniforms,100,,,,15,90
+GrenadeUniformC,Grenadier’s Baldric,EFactionId::Colonials,EFactoryQueueType::Uniforms,100,,,,15,90
+MedicUniformC,Medic Fatigues,EFactionId::Colonials,EFactoryQueueType::Uniforms,100,,,,15,90
+MedicUniformW,Physician’s Jacket,EFactionId::Wardens,EFactoryQueueType::Uniforms,100,,,,15,90
+NavalUniformC,Remex Garb,EFactionId::Colonials,EFactoryQueueType::Uniforms,100,,,,15,90
+NavalUniformW,Gentleman’s Peacoat,EFactionId::Wardens,EFactoryQueueType::Uniforms,100,,,,15,90
+OfficerUniformC,Officialis’ Attire,EFactionId::Colonials,EFactoryQueueType::Uniforms,100,,,,3,90
+OfficerUniformW,Officer’s Regalia,EFactionId::Wardens,EFactoryQueueType::Uniforms,100,,,,3,90
+RainUniformC,Legionary’s Oilcoat,EFactionId::Colonials,EFactoryQueueType::Uniforms,100,,,,15,90
+ScoutUniformC,Recon Camo,EFactionId::Colonials,EFactoryQueueType::Uniforms,100,,,,15,90
+ScoutUniformW,Outrider’s Mantle,EFactionId::Wardens,EFactoryQueueType::Uniforms,100,,,,15,90
+SnowUniformC,Heavy Topcoat,EFactionId::Colonials,EFactoryQueueType::Uniforms,100,,,,15,90
+SnowUniformW,Caoivish Parka,EFactionId::Wardens,EFactoryQueueType::Uniforms,100,,,,15,90
+TankUniformC,Tankman’s Coveralls,EFactionId::Colonials,EFactoryQueueType::Uniforms,100,,,,15,90
+TankUniformW,Padded Boiler Suit,EFactionId::Wardens,EFactoryQueueType::Uniforms,100,,,,15,90
